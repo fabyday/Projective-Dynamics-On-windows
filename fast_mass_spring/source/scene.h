@@ -36,7 +36,9 @@
 #include "math_headers.h"
 #include "global_headers.h"
 #include "primitive.h"
-#include "tinyxml.h"
+#include "../tinyxml/tinyxml.h"
+//#include "tinyxml.h"
+
 
 class Scene;
 class XMLSceneVisitor;

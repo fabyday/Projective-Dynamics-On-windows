@@ -62,6 +62,9 @@
     <Filter Include="Source Files\framework\ant_tweak_bar_wrapper">
       <UniqueIdentifier>{0c09f386-99ba-4ca0-bdf0-b2f82a28d29e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\framework\tinyxml">
+      <UniqueIdentifier>{5d073f6a-1ce4-4264-a2aa-0136e218e3ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\frag.glsl">
@@ -123,6 +126,18 @@
     <ClCompile Include="source\simpleTimer.cpp">
       <Filter>Source Files\simulation\simulation</Filter>
     </ClCompile>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>Source Files\framework\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>Source Files\framework\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\framework\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\framework\tinyxml</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\clock.h">
@@ -181,6 +196,12 @@
     </ClInclude>
     <ClInclude Include="source\simpleTimer.h">
       <Filter>Source Files\simulation\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>Source Files\framework\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>Source Files\framework\tinyxml</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
